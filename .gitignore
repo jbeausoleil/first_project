@@ -209,6 +209,7 @@ fabric.properties
 .idea/**/markdown-navigator/
 
 ### Python ###
+.DS_Store
 # Byte-compiled / optimized / DLL files
 
 # C extensions

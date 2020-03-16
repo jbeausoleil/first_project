@@ -21,6 +21,7 @@ from first_app import views
 
 urlpatterns = [
     url(r'^$', view=views.index, name='index'),
-    url(r'^first_app/', include('first_app.urls')),
+    url(r'^first-app/', include('first_app.urls')),
+    url(r'^form-page/', include('forms_app.urls')),
     path('admin/', admin.site.urls),
 ]

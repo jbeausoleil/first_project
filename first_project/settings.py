@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     # Project Applications
     'first_app',
+    'forms_app'
 ]
 
 MIDDLEWARE = [
